@@ -10,10 +10,15 @@
 		3A5910B91CAF4A1D00FBB4B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5910B81CAF4A1D00FBB4B5 /* AppDelegate.swift */; };
 		3A5910BB1CAF4A1D00FBB4B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5910BA1CAF4A1D00FBB4B5 /* ViewController.swift */; };
 		3A5910BE1CAF4A1E00FBB4B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5910BC1CAF4A1D00FBB4B5 /* Main.storyboard */; };
-		3A5910C01CAF4A1E00FBB4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5910BF1CAF4A1E00FBB4B5 /* Assets.xcassets */; };
 		3A5910C31CAF4A1E00FBB4B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5910C11CAF4A1E00FBB4B5 /* LaunchScreen.storyboard */; };
 		3A5910CE1CAF4A1E00FBB4B5 /* rpg_oopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5910CD1CAF4A1E00FBB4B5 /* rpg_oopTests.swift */; };
 		3A5910D91CAF4A1E00FBB4B5 /* rpg_oopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5910D81CAF4A1E00FBB4B5 /* rpg_oopUITests.swift */; };
+		3A5910E71CAF4BBB00FBB4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5910E61CAF4BBB00FBB4B5 /* Assets.xcassets */; };
+		3A5910E91CAF4C1100FBB4B5 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5910E81CAF4C1100FBB4B5 /* Character.swift */; };
+		3A5910EB1CAF4D7200FBB4B5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5910EA1CAF4D7200FBB4B5 /* Player.swift */; };
+		3A5910ED1CAF502300FBB4B5 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5910EC1CAF502300FBB4B5 /* Enemy.swift */; };
+		3A5910EF1CAF524900FBB4B5 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5910EE1CAF524900FBB4B5 /* Kimara.swift */; };
+		3A5910F11CAF535700FBB4B5 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5910F01CAF535700FBB4B5 /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		3A5910B81CAF4A1D00FBB4B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A5910BA1CAF4A1D00FBB4B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A5910BD1CAF4A1D00FBB4B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A5910BF1CAF4A1E00FBB4B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A5910C21CAF4A1E00FBB4B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A5910C41CAF4A1E00FBB4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A5910C91CAF4A1E00FBB4B5 /* rpg_oopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rpg_oopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +51,12 @@
 		3A5910D41CAF4A1E00FBB4B5 /* rpg_oopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rpg_oopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5910D81CAF4A1E00FBB4B5 /* rpg_oopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rpg_oopUITests.swift; sourceTree = "<group>"; };
 		3A5910DA1CAF4A1E00FBB4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5910E61CAF4BBB00FBB4B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A5910E81CAF4C1100FBB4B5 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		3A5910EA1CAF4D7200FBB4B5 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		3A5910EC1CAF502300FBB4B5 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		3A5910EE1CAF524900FBB4B5 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		3A5910F01CAF535700FBB4B5 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +110,14 @@
 				3A5910B81CAF4A1D00FBB4B5 /* AppDelegate.swift */,
 				3A5910BA1CAF4A1D00FBB4B5 /* ViewController.swift */,
 				3A5910BC1CAF4A1D00FBB4B5 /* Main.storyboard */,
-				3A5910BF1CAF4A1E00FBB4B5 /* Assets.xcassets */,
 				3A5910C11CAF4A1E00FBB4B5 /* LaunchScreen.storyboard */,
 				3A5910C41CAF4A1E00FBB4B5 /* Info.plist */,
+				3A5910E61CAF4BBB00FBB4B5 /* Assets.xcassets */,
+				3A5910E81CAF4C1100FBB4B5 /* Character.swift */,
+				3A5910EA1CAF4D7200FBB4B5 /* Player.swift */,
+				3A5910EC1CAF502300FBB4B5 /* Enemy.swift */,
+				3A5910EE1CAF524900FBB4B5 /* Kimara.swift */,
+				3A5910F01CAF535700FBB4B5 /* DevilWizard.swift */,
 			);
 			path = rpg_oop;
 			sourceTree = "<group>";
@@ -233,7 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A5910C31CAF4A1E00FBB4B5 /* LaunchScreen.storyboard in Resources */,
-				3A5910C01CAF4A1E00FBB4B5 /* Assets.xcassets in Resources */,
+				3A5910E71CAF4BBB00FBB4B5 /* Assets.xcassets in Resources */,
 				3A5910BE1CAF4A1E00FBB4B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5910EB1CAF4D7200FBB4B5 /* Player.swift in Sources */,
+				3A5910ED1CAF502300FBB4B5 /* Enemy.swift in Sources */,
+				3A5910F11CAF535700FBB4B5 /* DevilWizard.swift in Sources */,
+				3A5910EF1CAF524900FBB4B5 /* Kimara.swift in Sources */,
+				3A5910E91CAF4C1100FBB4B5 /* Character.swift in Sources */,
 				3A5910BB1CAF4A1D00FBB4B5 /* ViewController.swift in Sources */,
 				3A5910B91CAF4A1D00FBB4B5 /* AppDelegate.swift in Sources */,
 			);
