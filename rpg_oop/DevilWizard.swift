@@ -16,9 +16,12 @@ class DevilWizard: Enemy {
         }
     }
     
-    override var type: [String] {
+    override var type: String {
         get {
-            return ["Devil Wizard"]
+            return "Devil Wizard"
         }
     }
+    
+    convenience init(newHP: Int, newAttPwr: Int) {
+        self.init(startingHp: newHP, attackPower: newAttPwr)    }
 }

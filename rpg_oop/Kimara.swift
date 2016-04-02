@@ -18,10 +18,14 @@ class Kimara: Enemy {
         }
     }
     
-    override var type: [String] {
+    override var type: String {
         get {
-            return ["Kimara"]
+            return "Kimara"
         }
+    }
+    
+    convenience init(newHP: Int, newAttPwr: Int) {
+        self.init(startingHp: newHP, attackPower: newAttPwr)
     }
     
     override func attemptAttack(attackPower: Int) -> Bool {

@@ -16,9 +16,9 @@ class Enemy: Character {
         }
     }
     
-    var type: [String] {
+    var type: String {
         get {
-            return ["Grunt"]
+            return "Grunt"
         }
     }
     

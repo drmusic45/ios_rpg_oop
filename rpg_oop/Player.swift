@@ -31,4 +31,8 @@ class Player: Character {
         
         _name = newName
     }
+    
+    func addItemToInventory(item: String) {
+        _inventory.append(item)
+    }
 }
